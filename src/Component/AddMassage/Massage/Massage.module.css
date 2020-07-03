@@ -1,0 +1,32 @@
+.massage {
+        margin-top: 15px;
+        border-radius: 10px 10px 10px 0px;
+        background-color: darkgrey;
+        min-height: 60px;
+        width: 100%;
+}
+.massage img{
+        margin-top: 3px;
+        margin-left: 3px;
+        margin-bottom: 3px;
+        height: 35px;
+        width: 35px;
+        border: black 2px solid;
+        border-radius: 45px;
+        padding: 2px;
+}
+.name {
+        color: cornflowerblue;
+        margin: 0 3px;
+}
+.time {
+        color: whitesmoke;
+}
+.txt {
+        margin-top: -15px;
+        padding-left: 20px;
+}
+.txt p{
+        color: lightyellow;
+        word-break: break-word;
+}

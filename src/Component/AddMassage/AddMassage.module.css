@@ -1,0 +1,28 @@
+.addMenu {
+     display: flex;
+     justify-content: space-around;
+ }
+
+.addMenu button {
+    width: 70px;
+    height: 31px;
+    background-color: cornflowerblue;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    box-shadow: inset 0 -5px 0 0 mediumblue;
+    transition: box-shadow 0.5s;
+}
+
+.addMenu button:hover {
+    box-shadow: inset 0 -40px 0 0 mediumblue;
+
+}
+
+.addMenu textarea {
+    width: 100%;
+    min-height: 31px;
+    background-color: whitesmoke;
+    border: solid 1px;
+    height: 30px;
+    color: darkgrey;
+}
