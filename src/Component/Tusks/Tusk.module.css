@@ -1,0 +1,22 @@
+.position {
+    background-color: darkgray;
+    border-radius: 10px;
+    padding: 20px;
+}
+.buttons {
+
+}
+
+.priorityBlock {
+    border-radius: 5px;
+    width: 260px;
+    width: 255px;
+    background-color: beige;
+    padding: 10px;
+}
+.priorityBlock button{
+    margin: 0 5px;
+    border: none;
+    border-radius: 3px;
+    background-color: lightcoral;
+}
