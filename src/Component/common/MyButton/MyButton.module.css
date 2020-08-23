@@ -1,0 +1,12 @@
+.default {
+
+}
+.delete {
+    background-color: red!important;
+}
+.escape {
+    background-color: skyblue!important;
+}
+.select {
+    background-color: green!important;
+}

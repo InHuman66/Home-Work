@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import classes from "./Tusk.module.css";
 import Item from "./Item/Item";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import MyButton from "../common/MyButton/MyButton";
 export type FilterType =  'all'|'hight'|'medium'|'low';
 
 const Tusk=()=> {
@@ -42,10 +43,10 @@ const Tusk=()=> {
             <div className={classes.buttons}>
                 <div className={classes.priorityBlock}>
                     <p>Choose priority:</p>
-                    <button onClick={OnClickHight}>Hight</button>
-                    <button onClick={OnClickMedium}>Medium</button>
-                    <button onClick={OnClickLow}>Low</button>
-                    <button onClick={OnClickAll}>All</button>
+                    <MyButton text={'High'} click={OnClickHight}/>
+                    <MyButton text={'Medium'} click={OnClickMedium}/>
+                    <MyButton text={'Low'} click={OnClickLow}/>
+                    <MyButton text={'All'} click={OnClickAll}/>
                 </div>
                 <div>
 

@@ -21,6 +21,9 @@
 .greet  button:hover{
     color: white;
 }
+.greet button:disabled{
+    color: darkgray!important;
+}
 .greet:hover input{
     transition: border 1s;
     border: solid gold;
