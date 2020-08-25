@@ -1,0 +1,79 @@
+.container {
+    width: 100px;
+    height: 30px;
+    position: relative;
+}
+.select span{
+    color: black;
+}
+.select span:hover{
+    cursor: default;
+}
+.select {
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select:hover{
+    box-shadow: 0 0 4px rgb(204, 204, 204);
+}
+.DropdownMenu {
+    position: absolute;
+    background-color: #fff;
+    width: 100px;
+    box-shadow: 0 1px 2px rgb(204, 204, 204);
+    border-radius: 0 1px 2px 2px;
+    overflow: hidden;
+    max-height: 144px;
+    overflow-y: auto;
+    z-index: 9;
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+.DropdownMenu li{
+    list-style-type: none;
+}
+.DropdownMenu a{
+    display: block;
+    width: 100%;
+    border-top: 1px solid black;
+    background-color: white;
+    color: black;
+}
+.DropdownMenu a:hover{
+    background-color: #9fcdff;
+    text-decoration: none;
+}
+.DropdownMenuShow {
+    position: absolute;
+    background-color: #fff;
+    width: 100px;
+    box-shadow: 0 1px 2px rgb(204, 204, 204);
+    border-radius: 0 1px 2px 2px;
+    overflow: hidden;
+    max-height: 144px;
+    overflow-y: auto;
+    z-index: 9;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.DropdownMenuShow li{
+    list-style-type: none;
+}
+.DropdownMenuShow a{
+    display: block;
+    text-align: center;
+    width: 100%;
+    border-top: 0.5px solid black;
+    background-color: white;
+    color: black;
+}
+.DropdownMenuShow a:hover{
+    background-color: #9fcdff;
+    text-decoration: none;
+}

@@ -7,3 +7,18 @@
 .positionAll {
     padding-bottom: 40px;
 }
+.headerMenu {
+    margin-top: 50px;
+    height: 60px;
+    width: 100%;
+    background-color: #007bff;
+}
+.menu {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.select {
+    display: flex;
+    justify-content: center;
+}
