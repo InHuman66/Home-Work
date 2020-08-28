@@ -10,6 +10,7 @@ import Stage from "./Component/Stage/Stage";
 
 
 function App() {
+    debugger
   return (
       <div className={classes.positionAll}>
           <div className={classes.headerMenu}>
@@ -24,6 +25,7 @@ function App() {
                       <Tusk/>
                   </div>
                   <div className={classes.greetBlock}>
+
                       <Greeting/>
                   </div>
               </div>
